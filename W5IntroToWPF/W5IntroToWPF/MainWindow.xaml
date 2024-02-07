@@ -1,0 +1,32 @@
+﻿<Window x:Class="W5IntroToWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:W5IntroToWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="50
+        ">
+    <Grid>
+        <Button x:Name="ClickMeButton" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Center" Click="ClickMeButton_Click" Margin="508,0,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFF6F2F2" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="UserName" HorizontalAlignment="Left" Margin="78,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="371"  RenderTransformOrigin="0.513,0.484" GotFocus="UserName_GotFocus" LostFocus="UserName_LostFocus">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.276"/>
+                    <TranslateTransform X="0.101" Y="0.618"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Enter Name" HorizontalAlignment="Left" Margin="76,96,0,0" VerticalAlignment="Top" Width="324"/>
+
+    </Grid>
+</Window>
