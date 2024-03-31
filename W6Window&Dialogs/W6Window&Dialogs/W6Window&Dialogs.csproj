@@ -3,17 +3,10 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>W6Window_Dialogs</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="ryan.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="ryan.jpg" />
-  </ItemGroup>
 
 </Project>

@@ -9,11 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ryan.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="ryan.jpg" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
   </ItemGroup>
 
 </Project>
